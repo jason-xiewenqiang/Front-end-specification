@@ -1,0 +1,25 @@
+# Git
+
+- Git 项目命名与项目名称保持一致
+- Git分支管理
+  - master 主分支生产环境分支
+  - develop 开发分支 开发环境-测试环境分支
+  - feature 功能分支
+  - fix Bug分支
+  - Pre-release  其实是预发布的分支
+- 分支命名
+  - feature 分支 feature/<span style="color:blue;">[user]</span>@xiewenqiang
+  - fix 分支 fix/<span style="color:green;">[fix-style]</span>@xiewenqiang
+- 分支的Tag
+  - 按照前端原有路线进行定制Tag
+- 分支提交规范
+  - 每次提交时，如果是协作开发的分支，必须进行pull 和 diff
+  - 需要将提交功能做好 mark 
+  - 例：git commit -m' your feature or detail '
+- Git 练习
+  - 练习地址 [Git project](https://learngitbranching.js.org/?locale=zh_CN)
+  - 要求 通关两次 一个月内完成
+- Git 其他
+  - 每天下班前清理代码 （提交和记录开发）
+  - 有冲突时，进行diff和修改时，必须通知协作者 必要时，功能上线之后通知协作者进行简单功能验证
+  - 补充
