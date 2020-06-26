@@ -50,7 +50,6 @@
 ## [Vue组件](./src/component.md)
 
 - 组件原则
-- 组件声明
 - 组件属性
 - 组件html
 - 组件style
